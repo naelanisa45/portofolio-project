@@ -1,22 +1,24 @@
-<!doctype html>
-<html lang="id">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Naelanisa Aprilia Khumaedi — Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial" />
+  <title>Naelanisa Aprilia Khumaedi — Portofolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
+
+  <header>
+    <header>
     <div class="container header-grid">
-      <a class="brand" href="index.html">Naelanisa Aprilia Khumaedi</a>
-      <nav class="main-nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+      <nav class="main-nav">
         <a href="index.html" class="active">Home</a>
         <a href="works.html">Works</a>
         <a href="blog.html">Blog</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <button class="nav-toggle" aria-label="Open menu"></button>
     </div>
   </header>
 
@@ -54,26 +56,38 @@
           <div class="work-body">
             <h3>Desain Figma</h3>
             <p class="tag">2024 Desain Aplikasi •</p>
-            <p>.</p>
+            <p>Saya membuat desain UI. Desain ini berfokus pada icon yang memudahkan pengguna</p>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- Contact / About -->
+    <section class="works container" aria-labelledby="works-title">
+      <h2 id="works-title">Featured works</h2>
+      <div class="works-grid">
+        <article class="work">
+          <img src="img/profil card.png" alt="Web Profil Card">
+          <div class="work-body">
+            <h3>Web Profil Card</h3>
+            <p class="tag">2025 Project Web Profil Card •</p>
+            <p>Saya suka belajar hal baru seperti saat ini yang sedang dikerjakan web development.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="about container" id="contact">
       <h2>Tentang Saya</h2>
-      <p>Mahasiswa Teknik Informatika yang sedang belajar HTML dan CSS.</p>
-      <p>Email: <a href="mailto:naelanisa@example.com">naelanisa45@gmail.com</a></p>
+      <p> Saya Naelanisa Mahasiswa Semester 3 dari Teknik Informatika yang sedang belajar HTML dan CSS.</p>
+      <p>Email: <a href="mailto:naelanisa45@gmail.com">naelanisa45@gmail.com</a></p>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
+  <footer>
+    <div class="socials">
       <p>© <span id="year"></span> Naelanisa Aprilia Khumaedi — Teknik Informatika</p>
-      <nav class="footer-nav" aria-label="Footer">
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
+        <a href="#"><img src="assets/linkedIn.icon.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="assets/twitter.icon.svg" alt="Twitter"></a>
       </nav>
     </div>
   </footer>
